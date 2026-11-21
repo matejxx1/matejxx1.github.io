@@ -21,3 +21,7 @@ gallery:
     alt: "James in the snow"
     title: "Upstate New York winter"
 ---
+
+**James** (*Maple Ridge Lucky Break*) is my Golden Retriever, born June 20, 2025. When I am not proving adjoint theorems or debugging GPU kernels, you can usually find us out on a four-hour "sniffari" around Ithaca.
+
+{% include gallery caption="James's photo album." %}
