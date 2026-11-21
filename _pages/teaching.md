@@ -17,4 +17,3 @@ author_profile: true
 * TA for Math 2930 - Differential Equations for Engineers (Fall 2023)
 * REU mentor - Optimization and PDE-constrained optimization (2022 - Present)
 
-1
