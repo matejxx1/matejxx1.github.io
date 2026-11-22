@@ -5,32 +5,20 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h3>Preprints</h3>
+<ul>
+  <li><strong>Matej Neumann</strong> and Yunan Yang. "Ensemble Adjoint DSMC for Shape Optimization of the Space-Dependent Boltzmann Equation". <em>In preparation</em>.</li>
+  <li>Yu-Chen I. Han, <strong>Matej Neumann</strong>, Yunan Yang, and Chloé Arson. "Adjoint formulation of the fracture aperture field inversion problem and application to geothermal systems". <em>Submitted to International Journal for Numerical and Analytical Methods in Geomechanics</em> (2026).</li>
+</ul>
 
-{% include base_path %}
+<h3>Refereed Journal Articles</h3>
+<ul>
+  <li><strong>Matej Neumann</strong> and Yunan Yang. "HV metric for time-domain full-waveform inversion". <em>Research in the Mathematical Sciences</em> 13, 73 (2026). DOI: <a href="https://doi.org/10.1007/s40687-026-00614-5">10.1007/s40687-026-00614-5</a>.</li>
+  <li><strong>Matej Neumann</strong>, Zixiao Zeng, and Yunan Yang. "Robust Frequency Domain Full-Waveform Inversion via HV-Geometry". <em>IEEE Transactions on Computational Imaging</em> 11 (2025), pp. 1271–1282. DOI: <a href="https://doi.org/10.1109/TCI.2025.3604481">10.1109/TCI.2025.3604481</a>.</li>
+</ul>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<h3>Conference Proceedings</h3>
+<ul>
+  <li><strong>Matej Neumann</strong> and Marko Grobelnik. "Causal relationships among global indicators". <em>Proceedings of the 24th International Multiconference Information Society (IS 2021)</em> (2021).</li>
+  <li><strong>Matej Neumann</strong> et al. "Predictive AI analytics for consumer confidence". <em>European Commission NAIADES</em> (2021).</li>
+</ul>
